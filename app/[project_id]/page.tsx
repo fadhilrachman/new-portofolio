@@ -7,7 +7,7 @@ import { dataProject } from "@/components/ProjectDetail/constant";
 import { useParams } from "next/navigation";
 import Features from "@/components/ProjectDetail/Features";
 import ImgProject from "@/components/ProjectDetail/ImgProject";
-const page = () => {
+const ProjectDetail = () => {
   const { project_id } = useParams();
   const data = dataProject.find((val) => val.id == Number(project_id));
   // https://www.heroui.com/images/hero-card-complete.jpeg
@@ -40,4 +40,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ProjectDetail;

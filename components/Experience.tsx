@@ -45,11 +45,11 @@ const Experience = () => {
       <div className="space-y-4">
         {data.map((val, i) => {
           return (
-            <div className="flex space-x-4">
+            <div className="flex space-x-4" key={i}>
               <div className="rounded-full w-12 h-12 border flex justify-center items-center border-blue-600">
                 <MdWork className="text-2xl " />
               </div>
-              <div className="py-2 space-y-2 text-lg" key={i}>
+              <div className="py-2 space-y-2 text-lg">
                 <h3 className="text-xl">{val.title}</h3>
                 <div className="text-slate-400">
                   <h4>{val.company}</h4>
