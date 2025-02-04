@@ -1,6 +1,6 @@
 type Props = {
   title: string;
-  link: string;
+  link?: string;
 };
 
 const SkillsInput = ({ title, link }: Props) => {

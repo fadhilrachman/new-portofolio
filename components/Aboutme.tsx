@@ -7,23 +7,26 @@ const Aboutme = () => {
       <Title text="About Me" icon={<SiInformatica />} />
       <div className="text-lg tracking-wide flex flex-col gap-6">
         <p>
-          I am a web developer with 4+ years of experience in React. I have a
-          strong foundation in front-end & back-end development and am skilled
-          in creating user-friendly and responsive web applications using React
-          and its ecosystem. I have experience working on a variety of projects,
-          including building and maintaining single page applications,
-          integrating with REST APIs, and implementing responsive design
-          principles. I am also proficient in using tools such as Webpack, npm,
-          and Git for development and deployment. In addition to my technical
-          skills, I am a strong communicator and team player. I am able to work
-          effectively with cross-functional teams and am comfortable taking on
-          new challenges and learning new technologies as needed.
+          Hello, I am a Software Engineer, started studying programming in 2021
+          and started my career in 2022, my daily activity is working as a
+          Fulltime Fullstack Developer and also when I took a job part time
+          Freelance Web Developer. I am very interested in the world of software
+          development and committed to continuing to learn and develop in this
+          field.
         </p>
         <p>
-          I am always looking to improve my skills and stay up-to-date with the
-          latest best practices in web development. I am excited to continue
-          growing as a developer and making meaningful contributions to projects
-          and teams.
+          I am a graduate of MERN fullstack Bootcamp (MongoDB, ExpressJS,
+          ReactJS, and NodeJS) 4 months fullstack bootcamp at Eduwork.id. At
+          Bootcamp this I learned a lot about the entire technology stack MERN,
+          including MongoDB database, ExpressJS framework for the side
+          development server, ReactJS framework for front-end development, and
+          NodeJS runtime environment.
+        </p>
+        <p>
+          With educational background and work experience, I have Strong
+          expertise in MERN based web application development. I am ready to
+          face new challenges and continue to improve my skills as a Software
+          Engineer.
         </p>
       </div>
     </div>

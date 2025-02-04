@@ -14,14 +14,16 @@ const Banner = () => {
       </div>
       {/* Description */}
       <div className="w-3/4 flex flex-col items-center md:items-start    gap-2">
-        <h1 className="text-5xl font-bold text-white">Rendi Renaldi</h1>
+        <h1 className="text-5xl font-bold text-white">Fadhil Rahman</h1>
         <h3 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-red-300 to-indigo-300 tracking-wide">
           Full Stack Developer
         </h3>
-        <p className="text-base tracking-wide text-center md:text-left">
-          Halo semua..apakah kabar kalian? semoga semua dalam keadaan baik yah
-          Saya berasal dari Indonesia dan saya juga masih tahap pemula sebagai
-          full stack developer dan project yang saya kembangkan saat ini adalah GTA San Andreas Multiplayer
+        <p className="text-lg tracking-wide text-center md:text-left">
+          Passionate and seasoned Software Engineer with a strong focus on
+          frontend development. Proficient in TypeScript and well-versed in all
+          aspects of web technologies. Collaborative team player dedicated to
+          delivering efficient, scalable, and visually appealing web
+          applications
         </p>
       </div>
     </div>
