@@ -24,11 +24,15 @@ const Banner = () => {
           Full Stack Developer
         </h3>
         <p className="text-lg tracking-wide text-center md:text-left">
-          Passionate and seasoned Software Engineer with a strong focus on
-          frontend development. Proficient in TypeScript and well-versed in all
-          aspects of web technologies. Collaborative team player dedicated to
-          delivering efficient, scalable, and visually appealing web
-          applications
+          Passionate and seasoned Software Engineer with{" "}
+          <span className="font-bold underline text-blue-300">
+            {" "}
+            2 years of experience{" "}
+          </span>{" "}
+          in both frontend and backend development. Proficient in TypeScript and
+          well-versed in all aspects of web technologies. Collaborative team
+          player dedicated to delivering efficient, scalable, and visually
+          appealing web applications.
         </p>
       </div>
     </div>

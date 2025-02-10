@@ -53,7 +53,7 @@ const Experience = () => {
                 <h3 className="text-xl">{val.title}</h3>
                 <div className="text-slate-400">
                   <h4>{val.company}</h4>
-                  <h4>{val.date}</h4>
+                  <h4 className="text-white">{val.date}</h4>
                 </div>
                 <ol className="list-none text-slate-300 font-light space-y-2">
                   {val.jobdesk.map((valJob, iJob) => (
