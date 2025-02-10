@@ -25,7 +25,7 @@ function ProjectCard({ title, link, img, description, id }: Props) {
       <div className="absolute bottom-0 w-full bg-slate-900 text-white p-4 ">
         <div className="flex justify-between">
           <h3 className="font-bold text-xl">{title}</h3>
-          <span className="font-medium underline cursor-pointer">sijum.id</span>
+          {/* <span className="font-medium underline cursor-pointer">sijum.id</span> */}
         </div>
         <p className="text-sm mb-2">{description}</p>
       </div>

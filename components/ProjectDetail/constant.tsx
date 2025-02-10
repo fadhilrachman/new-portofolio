@@ -4,77 +4,17 @@ export const dataProject = [
     name: "Learning Management System",
     img: "/img/projects/lms.png",
     short_description:
-      "A comprehensive overview of my open-source projects and contributions",
+      "Learning Management System (LMS) designed to facilitate online learning with interactive and easy to use experience",
     link: {
-      str: "www.sijum.id",
+      github: "https://github.com/fadhilrachman/lms-porto",
       link: "https://lms-porto.vercel.app",
     },
     description: (
       <p>
-        Hello, I am a Software Engineer, started studying programming in 2021
-        and started my career in 2022, my daily activity is working as a
-        Fulltime Fullstack Developer and also when I took a job part time
-        Freelance Web Developer. I am very interested in the world of software
-        development and committed to continuing to learn and develop in this
-        field.
-      </p>
-    ),
-    skills: [
-      "Javascript",
-      "Typescript",
-      "Next Js",
-      "Tailwind",
-      "Express Js",
-      "MYSQL",
-    ],
-    features: ["Authentication JWT", "Admin dashboard", "Payment Gateway"],
-  },
-  {
-    id: 2,
-    name: "Web Donation",
-    img: "/img/projects/sijum.png",
-    short_description: "asdads",
-    link: {
-      str: "www.sijum.id",
-      link: "https://www.sijum.id/",
-    },
-    description: (
-      <p>
-        Hello, I am a Software Engineer, started studying programming in 2021
-        and started my career in 2022, my daily activity is working as a
-        Fulltime Fullstack Developer and also when I took a job part time
-        Freelance Web Developer. I am very interested in the world of software
-        development and committed to continuing to learn and develop in this
-        field.
-      </p>
-    ),
-    skills: [
-      "Javascript",
-      "Typescript",
-      "Next Js",
-      "Tailwind",
-      "Express Js",
-      "MYSQL",
-    ],
-    features: ["Authentication JWT", "Admin dashboard", "Payment Gateway"],
-  },
-  {
-    id: 3,
-    name: "REST API HRIS",
-    img: "/img/projects/webRecruitment.png",
-    short_description: "asdads",
-    link: {
-      str: "www.sijum.id",
-      link: "https://www.sijum.id/",
-    },
-    description: (
-      <p>
-        Hello, I am a Software Engineer, started studying programming in 2021
-        and started my career in 2022, my daily activity is working as a
-        Fulltime Fullstack Developer and also when I took a job part time
-        Freelance Web Developer. I am very interested in the world of software
-        development and committed to continuing to learn and develop in this
-        field.
+        Learning Management System (LMS) designed to facilitate online learning
+        with interactive and easy to use experience. This application allows
+        users to find, register, and take various courses according to their
+        interests
       </p>
     ),
     skills: [
@@ -86,10 +26,65 @@ export const dataProject = [
       "MYSQL",
     ],
     features: [
+      "Payment Gateway",
+      "Authentication JWT",
+      "Oauth Google",
+      "OTP Verification",
+      "Admin dashboard",
+    ],
+  },
+  {
+    id: 3,
+    name: "REST API HRIS",
+    img: "/img/projects/hris.png",
+    short_description:
+      "HRIS API is a nestjs -based backend designed to support the Human Resource Information System (HRIS) system",
+    link: {
+      github: "https://github.com/fadhilrachman/hris_backend",
+      link: "https://hris-backend-kappa.vercel.app/swagger/operator",
+    },
+    description: (
+      <p>
+        HRIS API is a nestjs -based backend designed to support the Human
+        Resource Information System (HRIS) system. This API provides various
+        endpoints for managing employee data, attendance, leave, and processing
+        process efficiently
+      </p>
+    ),
+    skills: ["Nest Js", "Typescript", "Prisma", "MYSQL"],
+    features: [
       "Multi Role Access",
       "Log Activity",
       "Integration Google Maps API",
       "Data Visualization Dashboard",
     ],
+  },
+  {
+    id: 2,
+    name: "Web Donation",
+    img: "/img/projects/sijum.png",
+    short_description:
+      "  Donation Web is an online donation platform that makes it easy for users to provide transparent and efficient assistance",
+    link: {
+      github: "https://github.com/fadhilrachman/sijum",
+      link: "https://sijum.vercel.app/",
+    },
+    description: (
+      <p>
+        Donation Web is an online donation platform that makes it easy for users
+        to provide transparent and efficient assistance. This website is
+        designed to connect donors with various social, charity and humanity
+        programs.
+      </p>
+    ),
+    skills: [
+      "Javascript",
+      "Typescript",
+      "Next Js",
+      "Tailwind",
+      "Express Js",
+      "MYSQL",
+    ],
+    features: ["Authentication JWT", "Admin dashboard", "Payment Gateway"],
   },
 ];
