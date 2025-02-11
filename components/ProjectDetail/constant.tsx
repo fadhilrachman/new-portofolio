@@ -34,7 +34,7 @@ export const dataProject = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     name: "REST API HRIS",
     img: "/img/projects/hris.png",
     short_description:
@@ -60,7 +60,7 @@ export const dataProject = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Web Donation",
     img: "/img/projects/sijum.png",
     short_description:

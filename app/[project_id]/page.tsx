@@ -1,7 +1,7 @@
 "use client";
 import Stack from "@/components/ProjectDetail/Stack";
 import Title from "@/components/Title";
-import React from "react";
+import React, { useRef } from "react";
 import { FaChrome, FaGithub, FaProjectDiagram } from "react-icons/fa";
 import { dataProject } from "@/components/ProjectDetail/constant";
 import { useParams } from "next/navigation";
@@ -9,6 +9,7 @@ import Features from "@/components/ProjectDetail/Features";
 import ImgProject from "@/components/ProjectDetail/ImgProject";
 import { GiGlobe } from "react-icons/gi";
 const ProjectDetail = () => {
+  const ref = useRef();
   const { project_id } = useParams();
   const data = dataProject.find((val) => val.id == Number(project_id));
   // https://www.heroui.com/images/hero-card-complete.jpeg
@@ -21,14 +22,14 @@ const ProjectDetail = () => {
             <a href={data.link.link} target="_blank">
               <p className="border border-blue-800 p-4 text-lg tracking-wide bg-transparent text-gray-400 hover:text-white hover:border-blue-600 hover:bg-black rounded-full duration-300">
                 {/* {title} */}
-                <FaChrome className="h-6 w-6" />
+                <FaChrome />
                 {/* cuyy */}
               </p>
             </a>
-            <a ref={data.link.github} target="_blank">
+            <a href={data.link.github} target="_blank">
               <p className="border border-blue-800 p-4 text-lg tracking-wide bg-transparent text-gray-400 hover:text-white hover:border-blue-600 hover:bg-black rounded-full duration-300">
                 {/* {title} */}
-                <FaGithub className="h-6 w-6" />
+                <FaGithub />
                 {/* cuyy */}
               </p>
             </a>
