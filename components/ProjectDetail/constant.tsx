@@ -34,6 +34,32 @@ export const dataProject = [
     ],
   },
   {
+    id: 4,
+    name: "Escrow Transaction",
+    img: "/img/projects/escrow.png",
+    short_description:
+      "Escrow is a financial arrangement in which a third party holds and regulates payment or assets on behalf of two transacting parties",
+    link: {
+      // github: "https://github.com/fadhilrachman/lms-porto",
+      link: "https://app.escrowsg.com/login",
+    },
+    description: (
+      <p>
+        Escrow is a financial arrangement in which a third party holds and
+        regulates payment or assets on behalf of two transacting parties. This
+        ensures that the transaction is secure and that both parties fulfill
+        their agreed-upon obligations before the assets or funds are released.
+      </p>
+    ),
+    skills: ["Javascript", "Typescript", "Next Js", "Antd"],
+    features: [
+      "Multi Role Access",
+      "Authentication 2FA",
+      "Admin dashboard",
+      "OTP Verification",
+    ],
+  },
+  {
     id: 2,
     name: "REST API HRIS",
     img: "/img/projects/hris.png",
