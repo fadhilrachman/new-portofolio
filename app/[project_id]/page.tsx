@@ -18,7 +18,7 @@ const ProjectDetail = () => {
       <img
         src={data?.img}
         alt=""
-        className="hidden sm:block w-full h-[450px] object-cover object-top"
+        className="hidden sm:block w-full h-[400px] shadow-xl shadow-slate-900 object-cover object-top"
       />
       <div className="max-w-screen-xl px-4 mx-auto pt-20 space-y-6   ">
         <div className="flex flex-col md:flex-row justify-between md:items-center border-b border-slate-700">
